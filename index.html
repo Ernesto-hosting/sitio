@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css.css">
+    </head>
+<body>
+    <h1>la mejor comida de El Salvador</h1>
+    <h1>llene el siguiente formulario</h1>
+          <div >
+            <form method="post" enctype="text/plain" action="mailto:correo">
+                <div>
+                    <!--especio para el nombre-->
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required/>
+                    </div> 
+                    <br>
+                    <!--especio para el apellido-->
+                    <div>
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido">
+                    </div>
+                    <br>
+                    <!--especio para el genero-->
+                    <div>
+                        <label for="hombre">Hombre</label> <input type="radio" id="Hombre" name="sexo"/>
+                        <label for="mujer">Mujer</label><input type="radio" id="mujer" name="sexo"/>
+                    </div>
+                    <!--especio para el fecha de nacimiento-->
+                    <div>
+                        <br>
+                        <label for="fecha_nacimiento">Fecha de nacimiento</label>
+                        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" placeholder="31/12/2000"/>
+                    </div>  
+                    <!--especio para seleccionar pais-->
+                    <div>
+                        <label for="pais">pais</label>
+                        <select id="pais" name="pais">
+                            <option value="ES">El Salvador</option>
+                            <option value="Gua">Guatemala</option>
+                            <option value="Bel">Belice</option>
+                            <option value="Hon">Honduras</option>
+                        </select>
+                    </div>
+                    <!--espacio para las comidas-->
+                    <br>
+                    <div>
+                    <label for="comida">comidas tipicas</label>
+                    <select id="comida" name="comida">
+                        <option value="P">pupusas</option>
+                        <option value="T">tamales</option>
+                        <option value="PT">pasteles </option>
+                    </select>
+                    </div>
+                    <br>
+                    <!--comentario con textarea-->
+                    <!--<label for="content">dejanos tu comentario</label>-->
+                    <textarea name="coment" id="coment" cols="30" rows="10" placeholder="dejanos tu comentario"></textarea>
+
+
+
+
+                    <!--especio para entrada de datos registrar-->
+    
+                    <div>
+                        <input type="submit" value="REGISTRAR">
+                    </div>
+                </div>
+    
+            </form>
+        </div>
+
+    
+</body>
+</html>
